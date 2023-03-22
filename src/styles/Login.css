@@ -1,0 +1,294 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.sign_logo{
+
+    color: rgb(29, 90, 204);
+    margin: 30px 0px 5px 0px;
+    width: 100%;
+    height: 26px;
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+.logo_text{
+    color: white;
+    background-color: rgb(29, 90, 204);
+    border-radius: 4px;
+    padding: 0px 2px;
+    margin-left: 2px;
+}
+
+.signin_content{
+    width: 352px;
+    height: 490px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    padding: 24px;
+    border-radius: 8px;
+    margin: 0 auto;
+    background: var(--color-background-container, #fff);
+}
+
+.new_user{
+    text-align: center;
+    margin-top: 10px;
+    width: 352px;
+    height: 32px;
+    padding: 24px;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+
+
+
+.text_sign{
+    font-size: 15px;
+     width: 304px;
+     margin-left: 12px;
+    margin-top: -10px;
+    margin-bottom: 12px;
+}
+
+.wd{
+    width: 304px;
+    margin: 12px;
+}
+.input{
+    height: 52px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.for{
+    
+    width: 52px;
+    margin-left: 4px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.btn{
+    height: 52px;
+    border-radius: 30px;
+    border: 1px solid gray;
+}
+.btn1{
+    margin-top: 20px;
+    background-color: rgb(45, 106, 221);
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+.btn1:hover{
+    background-color: #004182;
+}
+.google_button{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+.btn2{
+    align-items: center;
+    color: grey;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: transparent;
+}
+.btn2:hover{
+    background-color: rgba(207,207,207,0.25);
+    border: 2px solid gray;
+}
+.line_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    border: 0.1px solid grey;
+    width: 100px;
+    color: grey;
+}
+.orp{
+    color: grey;
+    font-size: 15px;
+    padding: 0px 20px 0px 20px;
+}
+
+
+.error{
+  color: rgb(236, 74, 74);
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.fontb{
+    color: rgb(13, 70, 177);
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+}
+.forgot{
+    margin-top: 5px;
+}
+.fontb:hover{
+    background-color: #d0e8ff;
+    border-radius: 20px;
+    
+}
+
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    padding: 50px 30px 10px 30px;
+}
+
+.sign_footer{
+    color: black;
+    font-size: 2px;
+}
+.logo_footer{
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    padding: 0px 2px;
+    margin-left: 2px;
+    margin-right: 5px;
+}
+
+.foot{
+    font-size: 2px;
+    padding: 0 5px;
+}
+.foot:hover{
+    text-decoration: underline;
+}
+.lang:hover{
+    text-decoration: none;
+    color: #004182;
+}
+
+.register_logo{
+
+    color: rgb(29, 90, 204);
+    padding: 30px 0px 10px 0px;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+.logo_text{
+    color: white;
+    background-color: rgb(29, 90, 204);
+    border-radius: 4px;
+    padding: 0px 2px;
+    margin-left: 2px;
+}
+
+.register_content{
+    width: 400px;
+    height: 530px;
+    padding: 24px;
+    border-radius: 8px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+.h_text{
+    color: black;
+    font-size: 35px;
+    font-weight: 400;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.rd{
+    width: 352px;
+    height: 36px;
+}
+.already_user{
+    text-align: center;
+    margin-top: 10px;
+    width: 352px;
+    height: 32px;
+    padding: 24px;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.register_input{
+    margin: 5px 0px 15px 0px;
+    padding-left: 10px;
+}
+.register_font_size{
+    font-size: 5px;
+}
+
+
+.register_btn{
+    height: 52px;
+    border-radius: 30px;
+    border: 1px solid gray;
+}
+.register_btn1{
+    margin-top: 20px;
+    background-color: rgb(45, 106, 221);
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+.register_btn1:hover{
+    background-color: #004182;
+}
+
+.register_btn2{
+    width: 304px;
+    margin: 25px 20px 2px 20px;
+    align-items: center;
+    color: grey;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: transparent;
+}
+.register_btn2:hover{
+    background-color: rgba(207,207,207,0.25);
+    border: 2px solid gray;
+}
+
+
+
+.register_font{
+    color: rgb(13, 70, 177);
+    font-size: 15px;
+    font-weight: 600;
+}
+.register_font:hover{
+    text-decoration: 2px underline;
+    
+}
+.login{
+    background: rgb(248, 245, 245);
+    }
+
+.font_size{
+    font-size: 15px;
+}
+
+.business_font{
+    font-size: 13px;
+}
